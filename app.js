@@ -16,9 +16,12 @@ app.use(bodyParser.json());
 
 
 
-app.get('/', (req, res) => {
-    let body=req.body
-    res.send("Hello World!");
+app.get('/id', (req, res) => {
+    let body=req.body;
+    let id=req.params.id
+    res.send(body,id)
+    console.log(id,body);
+
 });
 
 app.post('/product/create/:id', (req, res) => {
