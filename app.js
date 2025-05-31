@@ -17,6 +17,7 @@ app.use(bodyParser.json());
 
 
 app.get('/', (req, res) => {
+    let body=req.body
     res.send("Hello World!");
 });
 
