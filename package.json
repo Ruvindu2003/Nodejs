@@ -1,0 +1,25 @@
+{
+  "name": "cor-service",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruvindu2003/D1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruvindu2003/D1/issues"
+  },
+  "homepage": "https://github.com/Ruvindu2003/D1#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "Express": "^3.0.1"
+  }
+}
