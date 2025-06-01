@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 
 
 
-app.get('/id', (req, res) => {
+app.get('/:id', (req, res) => {
     let body=req.body;
     let id=req.params.id
     res.send(body,id)
